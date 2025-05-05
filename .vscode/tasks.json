@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build damas",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-g",
+          "Main.cpp",
+          "damas.cpp",
+          "coordenadas.cpp",
+          "-o",
+          "damas.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Compila el proyecto Damas"
+      }
+    ]
+  }
+  
